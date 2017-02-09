@@ -6,38 +6,46 @@ import org.junit.Test;
 
 public class RekenmachineTest {
     @Test
-    public void testMultiply(){
+    public void testMultiplyWholeNumbers(){
         Rekenmachine sut = new Rekenmachine();
-        int expected = 20;
-        int actual = sut.multiply(10, 2);
+        double expected = 20;
+        double actual = sut.multiply(10, 2);
 
-        assertEquals(expected, actual);
+        assertEquals(expected, actual,1);
+    }
+
+    @Test
+    public void testMultiplyHalfNumbers(){
+        Rekenmachine sut = new Rekenmachine();
+        double expected = 35;
+        double actual = sut.multiply(3.5, 10);
+        assertEquals(expected, actual,1);
     }
 
     @Test
     public void testSubtraction(){
         Rekenmachine sut = new Rekenmachine();
-        int expected = 20;
-        int actual = sut.subtract(30, 10);
+        double expected = 20;
+        double actual = sut.subtract(30, 10);
 
-        assertEquals(expected, actual);
+        assertEquals(expected, actual,1);
     }
 
     @Test
     public void testAddition(){
         Rekenmachine sut = new Rekenmachine();
-        int expected = 20;
-        int actual = sut.add(10, 10);
+        double expected = 20;
+        double actual = sut.add(10, 10);
 
-        assertEquals(expected, actual);
+        assertEquals(expected, actual,1);
     }
 
     @Test
     public void testDevision(){
         Rekenmachine sut = new Rekenmachine();
-        int expected = 20;
-        int actual = sut.divide(200, 10);
+        double expected = 20;
+        double actual = sut.divide(200, 10);
 
-        assertEquals(expected, actual);
+        assertEquals(expected, actual, 1);
     }
 }

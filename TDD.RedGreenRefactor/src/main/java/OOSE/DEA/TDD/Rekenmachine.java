@@ -9,14 +9,14 @@ public class Rekenmachine
     public static void main( String[] args )
     {
         Rekenmachine app = new Rekenmachine();
-        int firstValue = 10;
-        int secondValue = 5;
+        double firstValue = 10;
+        double secondValue = 5;
 
-        int total = app.multiply(firstValue, secondValue);
+        double total = app.multiply(firstValue, secondValue);
         System.out.println("The total of the two numbers is: " + total);
     }
 
-    public int multiply(int x, int y) {
+    public double multiply(double x, double y) {
         return x * y;
     }
 
