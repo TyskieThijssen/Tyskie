@@ -9,7 +9,7 @@ public class RekenmachineTest {
     public void testMultiplyWholeNumbers(){
         Rekenmachine sut = new Rekenmachine();
         double expected = 20;
-        double actual = sut.multiply(10, 2);
+        double actual = sut.multiply(10.0, 2.0);
 
         assertEquals(expected, actual,1);
     }
@@ -26,7 +26,7 @@ public class RekenmachineTest {
     public void testSubtraction(){
         Rekenmachine sut = new Rekenmachine();
         double expected = 20;
-        double actual = sut.subtract(30, 10);
+        double actual = sut.subtract(30.0, 10.0);
 
         assertEquals(expected, actual,1);
     }
@@ -35,7 +35,7 @@ public class RekenmachineTest {
     public void testAddition(){
         Rekenmachine sut = new Rekenmachine();
         double expected = 20;
-        double actual = sut.add(10, 10);
+        double actual = sut.add(10.0, 10.0);
 
         assertEquals(expected, actual,1);
     }
@@ -44,7 +44,7 @@ public class RekenmachineTest {
     public void testDevision(){
         Rekenmachine sut = new Rekenmachine();
         double expected = 20;
-        double actual = sut.divide(200, 10);
+        double actual = sut.divide(200.0, 10.0);
 
         assertEquals(expected, actual, 1);
     }
