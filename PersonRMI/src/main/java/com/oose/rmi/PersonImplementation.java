@@ -11,11 +11,27 @@ public class PersonImplementation extends UnicastRemoteObject implements PersonI
     public PersonImplementation() throws RemoteException {
     }
 
-    public Person retrieveInformation(String name) throws RemoteException {
+    public Person retrieveInformation(String name) throws RemoteException, NullPointerException {
         Person thijs = new Person();
         thijs.setName("Thijssen");
         thijs.setAge(20);
-        System.out.println(thijs.getName() + " asked for their information.");
-        return thijs;
+
+        Person sanne = new Person();
+        sanne.setName("Derksen");
+        sanne.setAge(16);
+
+        if("Thijs".equalsIgnoreCase(name)){
+            System.out.println(thijs.getName() + " asked for their information.");
+            return thijs;
+        } else if ("Sanne".equalsIgnoreCase(name)){
+            System.out.println(sanne.getName() + " asked for their information.");
+            return sanne;
+        } else {
+            System.out.println("Unkown name asked for their information.");
+            return null;
+        }
+
+
+
     }
 }

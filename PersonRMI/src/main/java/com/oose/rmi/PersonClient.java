@@ -18,6 +18,8 @@ public class PersonClient {
             e.printStackTrace();
         } catch (MalformedURLException e) {
             e.printStackTrace();
+        } catch (NullPointerException e) {
+            System.out.println("De persoon bestaat niet.");
         }
     }
 }
