@@ -30,8 +30,5 @@ public class PersonImplementation extends UnicastRemoteObject implements PersonI
             System.out.println("Unkown name asked for their information.");
             return null;
         }
-
-
-
     }
 }

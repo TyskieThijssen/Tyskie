@@ -1,2 +1,0 @@
-# Tyskie
-IdeaProjects
