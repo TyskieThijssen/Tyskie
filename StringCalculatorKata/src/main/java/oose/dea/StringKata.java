@@ -16,7 +16,7 @@ public class StringKata {
             for(int i = 0; i < parts.length; i++){
                 int addNumber = Integer.parseInt(parts[i]);
                 if(addNumber < 0){
-                    throw new IllegalArgumentException("Negatives not allowed! " + addNumber);
+                    throw new IllegalArgumentException("Negatives are not allowed! " + addNumber);
                 }
                 result += addNumber;
             }
