@@ -12,7 +12,7 @@ public class PersonClient {
     public static void main(String[] args) throws RemoteException {
         try {
             PersonInterface personInterface = (PersonInterface) Naming.lookup("PersonServer");
-            Person p1 = personInterface.retrieveInformation("sanne");
+            Person p1 = personInterface.retrieveInformation("Thijs");
             System.out.println("Name: " + p1.getName() + "\nAge: " + p1.getAge());
         } catch (NotBoundException e) {
             e.printStackTrace();
