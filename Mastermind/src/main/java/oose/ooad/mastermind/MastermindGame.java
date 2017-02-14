@@ -16,14 +16,15 @@ public class MastermindGame {
 
     public void checkCombination(String guessAsString){
         ColorCombination guess = new ColorCombination(guessAsString);
-        Hint hint = secretCode.copareWith(guess);
+        Hint hint = secretCode.compareWith(guess);
         System.out.println("Right colour right position = " + hint.getCorrect()
                             + "\nRight colour wrong position = " + hint.getSemiCorrect());
+        turn++;
         if(hint.getCorrect() == 4){
             System.out.println("You've found the secret code. Congrats!");
             this.won = true;
         }
-        if(turn > 8){
+        if(turn > 8 && won == false){
             System.out.println("You've lost the game!");
         }
     }

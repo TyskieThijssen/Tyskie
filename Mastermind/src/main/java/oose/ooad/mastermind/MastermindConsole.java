@@ -10,11 +10,11 @@ public class MastermindConsole {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Mastermind. Try to find the secret code.");
 
-        ColorCombination secretCode = new ColorCombination("BBWR");
-        MastermindGame game = new MastermindGame(0, false, secretCode);
+        ColorCombination secretCode = new ColorCombination("NSFW");
+        MastermindGame game = new MastermindGame(1, false, secretCode);
 
-        while (!game.isWon() ^ game.getTurn() >= 8) {
-            System.out.print("Guess please: ");
+        while (!game.isWon() ^ game.getTurn() > 8) {
+            System.out.print("Turn " + game.getTurn() + "/8 guess please: ");
             game.checkCombination(scanner.next());
         }
     }

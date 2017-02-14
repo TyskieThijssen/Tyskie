@@ -16,7 +16,7 @@ public class ColorCombination {
         }
     }
 
-    public Hint copareWith(ColorCombination other){
+    public Hint compareWith(ColorCombination other){
         int correct = determineRightColorRightPosition(other);
         int semiCorrect = determineRigthColorWrongPosition(other);
 
@@ -31,14 +31,17 @@ public class ColorCombination {
                 correct++;
             }
         }
-
         return correct;
     }
 
     public int determineRigthColorWrongPosition(ColorCombination other){
         int semiCorrect = 0;
         for(int i = 0; i < pegs.size(); i++){
-
+            for(int j = 0; j < pegs.size(); j ++){
+                if((this.pegs.get(i).getColor() == other.pegs.get(j).getColor()) && (this.pegs.get(i).getColor() != other.pegs.get(i).getColor())){
+                    semiCorrect++;
+                }
+            }
         }
         return semiCorrect;
     }
