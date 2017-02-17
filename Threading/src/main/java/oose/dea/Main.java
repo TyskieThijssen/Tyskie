@@ -6,7 +6,7 @@ import java.util.ArrayList;
  * Created by Tyskie on 16-2-2017.
  */
 public class Main {
-    private static final int nThreads = 10;
+    private static final int nThreads = 100;
     private static final int maxValue = 1000;
 
     public static void main(String[] args){
