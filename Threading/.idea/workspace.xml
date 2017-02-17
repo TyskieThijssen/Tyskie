@@ -130,9 +130,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,6 +198,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -664,11 +664,12 @@
       <workItem from="1487270924956" duration="534000" />
       <workItem from="1487350872253" duration="120000" />
       <workItem from="1487351112677" duration="12000" />
+      <workItem from="1487351257046" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7958000" />
+    <option name="totallyTimeSpent" value="7970000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -729,6 +730,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/Counter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="32" column="36" lean-forward="false" selection-start-line="32" selection-start-column="36" selection-end-line="32" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/MaxValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="23" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#310#311#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="43" lean-forward="false" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/oose/dea/ThreadingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
