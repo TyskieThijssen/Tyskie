@@ -13,7 +13,7 @@ public class Calculate {
         System.out.println("Welcome to my simple calculator!");
         System.out.print("Please enter your name: ");
         String username = scanner.nextLine();
-        System.out.println("Welcome, " + username);
+        System.out.println("Welcome, " + username + "!");
 
         boolean play = true;
 
