@@ -45,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/Calculate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+              <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -661,7 +661,7 @@
       <option name="presentableId" value="Default" />
       <updated>1487372630533</updated>
       <workItem from="1487372633965" duration="2691000" />
-      <workItem from="1487406081130" duration="3608000" />
+      <workItem from="1487406081130" duration="3675000" />
     </task>
     <servers />
   </component>
@@ -698,7 +698,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6299000" />
+    <option name="totallyTimeSpent" value="6366000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="26" width="1400" height="1000" extended-state="0" />
@@ -814,7 +814,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/oose/dea/Calculate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="15" column="54" lean-forward="false" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <caret line="15" column="56" lean-forward="false" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding />
         </state>
       </provider>
