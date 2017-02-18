@@ -42,7 +42,7 @@ public class Calculator {
         return first - second;
     }
 
-    public int multiply(String x, String y) {
+    public int multiply(String x, String y) throws IllegalArgumentException {
         int first;
         int second;
 
@@ -61,9 +61,21 @@ public class Calculator {
         return first * second;
     }
 
-    public int divide(String x, String y) {
-        int first = Integer.parseInt(x);
-        int second = Integer.parseInt(y);
+    public int divide(String x, String y) throws IllegalArgumentException, ArithmeticException {
+        int first;
+        int second;
+
+        if(x.isEmpty()){
+            first = 0;
+        } else {
+            first = Integer.parseInt(x);
+        }
+
+        if(y.isEmpty()){
+            second = 0;
+        } else {
+            second = Integer.parseInt(y);
+        }
 
         return first / second;
     }

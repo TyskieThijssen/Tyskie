@@ -108,4 +108,21 @@ public class CalculatorTest {
         assertEquals(expected, actual);
     }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void testDivideIllegalArgument(){
+        sut.divide("x", "5");
+    }
+
+    @Test
+    public void testDivideEmptyString(){
+        int expected = 0;
+        int actual = sut.divide("", "5");
+        assertEquals(expected, actual);
+    }
+
+    @Test(expected = ArithmeticException.class)
+    public void testDivideByZero(){
+        sut.divide("5", "0");
+    }
+
 }
